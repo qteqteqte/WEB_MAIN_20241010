@@ -26,12 +26,12 @@
 </html>
 ```
 - html의 태그 구성
-    - HTML : 페이지 시작
-    - HEAD : 문서의 메타데이터(전역)
-    - SCRIPT : 자바 스크립트
-    - BODY : 주요 컨텐츠(문자, 이미지, 영상 등)
-    - DIV : 레이아웃 구분
-    - IFRAME : 다른 HTML 문서 포함 (일반적으로 숨겨진다.)
+    - `<html>` : 페이지 시작
+    - `<head>` : 문서의 메타데이터(전역)
+    - `<script>` : 자바 스크립트
+    - `<body>` : 주요 컨텐츠(문자, 이미지, 영상 등)
+    - `<div>` : 레이아웃 구분
+    - `<iframe>` : 다른 HTML 문서 포함 (일반적으로 숨겨진다.)
 
 - html의 레이아웃 구성
     - HEADER : TOP(상단)
@@ -64,7 +64,7 @@
 ```
 
 ### 하이퍼링크
-- 주로 <body> 내부에 삽입
+- 주로 `<body>` 내부에 삽입
     - 외부 페이지 연결
 
 ```html
@@ -319,7 +319,7 @@ return false;
 ### login.js 수정 (DOMPuirfy 라이브러리 활용하여 XSS 방지)
 - Sanitized 함수
     - 특수문자를 안전한 문자형태로 변환
-    - <script><iframe><svg> 태그 제거 등
+    - `<script>` `<iframe>` `<svg>` 태그 제거 등
     - 스타일 속성, url 형식 등 다양한 정보 제거
 
 ```Javascript
