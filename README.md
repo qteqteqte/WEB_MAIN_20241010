@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 2025-1학기 자바웹프로그래밍(1)
 ## 개요
 2025-1 자바웹프로그래밍(1) 수업 프로젝트
@@ -133,3 +134,12 @@
 - 웹 오픈 API 소개
     - 지도 서비스(카카오맵)
 - JS - 지도 API 구현(카카오맵)
+=======
+# HTML 프로젝트 - 깃허브
+새로운 시작! 웹 서비스 개발의 세계로 떠나보아요~
+## Getting Started
+This project is a starting point for a Web application.
+- [프로젝트 메인 주소](https://github.com/qteqteqte/WEB_MAIN_20241010)
+## 2주차 수업 메인화면 개발 완료! (문제 포함)
+## 3주차 수업 부트스트랩 적용 완료! (문제 제외)
+>>>>>>> bc21a0ae8c8d2e14d89ef038e55d5bb5446a6567

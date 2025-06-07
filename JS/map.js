@@ -1,10 +1,15 @@
 var container = document.getElementById('map'); //지도를 담을 영역의 DOM 레퍼런스
 var options = { //지도를 생성할 때 필요한 기본 옵션
+<<<<<<< HEAD
 	center: new kakao.maps.LatLng(37.38029490700711, 126.92766445462013), //지도의 중심좌표.
+=======
+	center: new kakao.maps.LatLng(33.450701, 126.570667), //지도의 중심좌표.
+>>>>>>> bc21a0ae8c8d2e14d89ef038e55d5bb5446a6567
 	level: 3 //지도의 레벨(확대, 축소 정도)
 };
 
 var map = new kakao.maps.Map(container, options); //지도 생성 및 객체 리턴
+<<<<<<< HEAD
 
 // 일반 지도와 스카이뷰로 지도 타입을 전환할 수 있는 지도타입 컨트롤을 생성합니다
 var mapTypeControl = new kakao.maps.MapTypeControl();
@@ -247,3 +252,5 @@ function removeAllChildNods(el) {
         el.removeChild (el.lastChild);
     }
 }
+=======
+>>>>>>> bc21a0ae8c8d2e14d89ef038e55d5bb5446a6567
